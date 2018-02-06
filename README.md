@@ -24,114 +24,22 @@ RTVC is a powerful tool that serve as seed project for developing 1 to 1 or 1 to
 
 ## Features
 
+> Audio/Video P2P 
+> one to many Broadcast
+> Screen sharing
+> Recording 
+> Chat 
+> Speech to text
+> Voice Mail 
+> Face Filter (under dev)
+> Hand Raise Feature ( under dev)
 
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col"># </th>
-        <th scope="col">Feauteres</th>
-        <th scope="col">BASIC</th>
-        <th scope="col">Commercial</th>
-        <th scope="col">ENTERPRISE</th>
-        <th scope="col">PRICING<small> / module</small></th>
-
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="table-info">
-        <td>1</td>
-        <th>Audio Video P2P</th>
-        <td class="text-success">INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> 500$ <small>base Price</small></th>
-      </tr> 
-      <tr class="table-info">
-        <td>1</td>
-        <th>Audio Video 1-*<small>( Many )</small></th>
-        <td class="text-success">INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> 400$ <small>base Price</small></th>
-      </tr> 
-      <tr class="table-warning">
-        <td>2</td>
-        <th>Audio/Video Recording</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> +300$ <small> additional</small></th>
-      </tr>
-      <tr class="table-warning">
-        <td>3</td>
-        <th>Screen Sharing</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> +250$ <small> additional</small></th>
-      </tr>
-      <tr class="table-warning">
-        <td>3-x</td>
-        <th>File Sharing</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> +150$ <small> additional</small></th>
-      </tr>
-      <tr class="table-danger">
-        <td>4</td>
-        <th>Chat Features</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-success"> INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> +200$ <small> additional</small></th>
-      </tr>
-      
-      
-      <tr class="table-danger">
-        <td>5</td>
-        <th>Call Controls</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <td class="text-success">INCLUDED</td>
-        <th> +150$ <small> additional</small></th>
-      </tr>
-      <tr class="table-danger">
-        <td>6</td>
-        <th>Speech to Text Feature</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-danger">NOT INCLUDED</td>
-          <td class="text-success">INCLUDED</td>
-        <th> +150$ <small> additional</small></th>
-      </tr>
-      <tr class="table-danger">
-        <td>6</td>
-        <th>Face Filters</th>
-        <td class="text-danger"></td>
-        <td class="text-info">Under Development</td>
-          <td class="text-success"></td>
-        <th> +150$ <small> additional</small></th>
-      </tr>
-      <tr class="table-danger">
-        <td>7</td>
-        <th>Voice Mailbox</th>
-        <td class="text-danger">NOT INCLUDED</td>
-        <td class="text-danger">NOT INCLUDED</td>
-          <td class="text-success">INCLUDED</td>
-        <th> +400$ <small> additional</small></th>
-      </tr>
-      <tr class="table-danger">
-          <td>8</td>
-          <th>Hand Raise Feature</th>
-          <td class="text-danger"></td>
-          <td class="text-info">Under Development</td>
-          <td class="text-success"></td>
-          <th> +400$ <small> additional</small></th>
-        </tr>
-    </tbody>
-  </table> 
-
+Run `ng build --prod --build-optimizer` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 ## Further help
 
 To get more information you can contact us at info@atrixdigital.com or for your custom project. 
+
+
+# Atrix LICENSE 
+This project is open source under ATRIX DIGITAL OPEN SOURCE LICENSE.
