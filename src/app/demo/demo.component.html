@@ -1,0 +1,65 @@
+<div class="jumbotron jumbotron-fluid" style="background:url('./assets/bg.jpg')">
+  <div class="container">
+    <h1 class="display-3">RTVC Live demo!</h1>
+    <p class="lead">Let us integrate RTVC into your project! </p>
+    <hr class="my-2" >
+    <p style="background-color:rgba(255, 255, 255, 0.329)">Are you interested in integrating audio, video calling experience in your current existing app or looking to 
+      build a complete new interactive experience application then let us build it for you ! 
+    </p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Hire us</a>
+    </p>
+  </div>
+</div>
+
+<div class="container text-center">
+    <h1 routerLink="demo/{{roomId}}">DEMO</h1>
+    
+
+    <p>This is a simple video broadcast demo, start a broacast with a unique ID and ask your friend to join the broacast with unique ID ..</p>
+      
+    <div class="form-group"  *ngIf="!started">
+      <label for=""></label>
+      <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="full Name">
+      <!-- <small id="emailHelpId" class="form-text text-muted">Help text</small> -->
+    </div>
+    <div class="form-group"  *ngIf="!started">
+        <label for=""></label>
+        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="email">
+        <small id="emailHelpId" class="form-text text-muted">Help text</small>
+      </div>
+    
+      <div class="container" *ngIf="!started">
+      <h5 >ROOM ID</h5>
+    <div class="form-group">
+        <label for=""></label>
+        <input type="text" class="form-control" [(ngModel)]="roomId" aria-describedby="helpId" placeholder="Edit Room ID">
+        <small id="helpId" class="form-text text-muted">Enter a unique ID </small>
+      </div>
+      <code>{{roomId}}</code>
+    </div>
+
+
+<div class=" text-center" style="text-align:center" *ngIf="!started">
+    <button type="button" class="btn btn-success" btn-lg btn-block  (click)="openRoom()">START BROADCAST</button>
+   </div> 
+   <span class="text-success" *ngIf="started">Session has been started. Please share this link with others to join your broadcast & see you live in action!<br>
+    <a href="https://localhost:4200/demo/{{roomId}}" target="_blank">https://localhost:4200/demo/{{roomId}}</a>
+      <!-- <button type="button" class="btn btn-info" btn-lg btn-block  (click)="goJoin()" >JOIN</button> -->
+
+   </span>
+
+   <div class="row">
+      <div class="col-md-6">
+      <h2>LOCAL</h2>
+              <div #local id="local"></div>
+      </div>
+      <div class="col-md-6">
+      <h2>REMOTE</h2>
+              <div #remote id="remote"></div>
+      </div>
+  </div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br>
