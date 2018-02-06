@@ -65,6 +65,7 @@ import { JoinComponent } from './join/join.component';
       { path:'demo', component:DemoComponent},
       { path:'pricing', component:DemoComponent},
       { path:'demo', component:DemoComponent},
+      { path:'about', component:AboutComponent},
       { path:'demo/:id', component:JoinComponent},
    ])
   ],

@@ -44,7 +44,7 @@
     <button type="button" class="btn btn-success" btn-lg btn-block  (click)="openRoom()">START BROADCAST</button>
    </div> 
    <span class="text-success" *ngIf="started">Session has been started. Please share this link with others to join your broadcast & see you live in action!<br>
-    <a href="https://localhost:4200/demo/{{roomId}}" target="_blank">https://localhost:4200/demo/{{roomId}}</a>
+    <a href="{{url}}/{{roomId}}" target="_blank">{{url}}/{{roomId}}</a>
       <!-- <button type="button" class="btn btn-info" btn-lg btn-block  (click)="goJoin()" >JOIN</button> -->
 
    </span>

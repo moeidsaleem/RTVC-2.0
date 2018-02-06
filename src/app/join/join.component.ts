@@ -12,6 +12,7 @@ export class JoinComponent implements OnInit {
 
 roomId;
 message;
+url = 'https://ec2-13-229-128-0.ap-southeast-1.compute.amazonaws.com:8000';
   constructor(private router:Router,private route:ActivatedRoute, private rtc:WebrtcService) { 
     this.roomId =this.route.snapshot.params.id;
     this.rtc.connection.onstream = function(event){

@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./demo.component.css']
 })
 export class DemoComponent implements OnInit {
+  url = 'https://ec2-13-229-128-0.ap-southeast-1.compute.amazonaws.com:8000';
 
   constructor(private router:Router,private rtc:WebrtcService,private elementRef:ElementRef) {
    
