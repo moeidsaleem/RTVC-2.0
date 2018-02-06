@@ -12,7 +12,7 @@ module.exports = function(bs) {
         
       }, 
       https:true, 
-      port: 8000,
+      port: 80,
       files: ["./dist/**/*.{html,htm,css,js}"],
       server: { "baseDir": "./dist" }
     };
